@@ -6,6 +6,8 @@
 *.iml
 out
 gen
+
+node_modules
 ### macOS template
 # General
 .DS_Store
