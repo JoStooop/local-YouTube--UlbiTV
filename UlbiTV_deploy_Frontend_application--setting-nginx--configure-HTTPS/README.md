@@ -34,7 +34,7 @@
 
 - Заходим в папку `etc` -> `etc/nginx` = открываем файл конфигурации -> `nano nginx.conf`
 
-![Снимок экрана 2023-08-28 в 01.47.56.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F91%2Fzgxyxvd9643443fq7486sqfw0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_J9VIYJ%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-08-28%20%D0%B2%2001.47.56.png)
+![](img-readme/3.png)
 
 Внизу файла. Где 2 include. В них подключатся дополнительные конфиги, которыми мы можем расширить главный конфиг.
 
@@ -90,7 +90,7 @@ location / {
 
 - Можно оптимизировать сжатие бандла спомощью `nginx`. Дополнительно спомощью модуля `gzip`. Это классическое сжатие файлов. Nginx их сжимает, отправляет браузеру и браузер их разворачивает.
 - Для того чтобы `gzip` работал надо в файлу nginx.conf разоментирова эти строки
-![Снимок экрана 2023-08-28 в 12.44.20.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F91%2Fzgxyxvd9643443fq7486sqfw0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_nfrjNL%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-08-28%20%D0%B2%2012.44.20.png)
+![](img-readme/1.png)
 ```js
 gzip_comp_level 6; // Это уровень сжатия. Того на сколько грубо он сжимает ваши файлы. Всего уровней 9 (кажется)
 
@@ -112,7 +112,7 @@ gzip_comp_level 6; // Это уровень сжатия. Того на скол
 1) Заходим на сайта - https://letsencrypt.org/getting-started/ 
 2) Нажимаем на Certbot - https://certbot.eff.org/ - Бот который может сгенерировать сертификаты7
 
-![Снимок экрана 2023-08-28 в 13.08.41.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F91%2Fzgxyxvd9643443fq7486sqfw0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_Yak4H2%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-08-28%20%D0%B2%2013.08.41.png)
+![](img-readme/2.png)
 
 3) `sudo apt-get remove certbot` - удаляем прошлого бота
 4) Установка - `sudo snap install --classic certbot`
