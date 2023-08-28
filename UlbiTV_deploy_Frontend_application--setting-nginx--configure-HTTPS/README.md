@@ -1,6 +1,8 @@
 
 [Открыть видео](https://www.youtube.com/watch?v=8OHe6chCWTE&t=315s)
 
+[Статься от автора](https://selectel.ru/blog/tutorials/deploy-with-nginx/?utm_source=youtube.com&utm_medium=referral&utm_campaign=help_deploy-with-nginx_210823_ulbi-tv_paid)
+
 
 1) аренда сервера
 
